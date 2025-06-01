@@ -1,0 +1,10 @@
+url: "https://www.michaelbamford.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Michael Bamford"
+
+plugins:
+  - jekyll-tailwind
+  - jekyll-heroicons
+
+heroicons:
+  variant: "outline"
