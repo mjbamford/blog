@@ -18,5 +18,5 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
   gem 'jekyll-tailwind'
-  gem 'tailwindcss-ruby', '>=3', '<4'
+  gem 'tailwindcss-ruby', '>=4'
 end
