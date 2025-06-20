@@ -1,4 +1,4 @@
-work:
+engagements:
   - startedOn: 2020-03-01
     endedOn:
     title: Full-stack Web Developer | Engineering Head
@@ -124,25 +124,18 @@ work:
       information for sales kickoff events, partners, industry analysts, trade shows
       and customers’ technical staff and executive management.
 
-  - startedOn: 2000-03-01
-    endedOn: 2001-07-31
-    title: Java Developer at ePredix, San Francisco
+  - startedOn: 1994-07-01
+    endedOn: 2001-10-01
+    title: Additional Experience
     description: |
-      Java and Oracle developer on Apache and Tomcat for a psychometric
-      measurement application used by Fortune 500 companies to qualify new
-      employee candidate capabilities; drove the use cases and authored the product
-      requirements document; pair programming.
-
-  - startedOn: 1998-06-01
-    endedOn: 2000-03-31
-    title: Database Developer Consultant, Oracle Corporation
-    description: |
-      Technical consultant for Oracle’s database and Java (J2EE) technology
-      platforms; Oracle database technical certification; analysis, design,
-      prototyping and development of J2EE-technology based business solutions for
-      Oracle customers and prospects; technology pre-sales support for Oracle’s
-      customers and partners. Technology: Java and J2EE, Oracle database, PL/SQL
-      development, performance tuning, and security; very large database design and
-      optimisation.
-
+      Prior experience includes Java and Oracle developer and engineering
+      manager at ePredix (San Francisco, 3/2000 – 7/2001), a psychometric
+      measurement application used by Fortune 500 companies to qualify new employee
+      candidate capabilities; database developer at Oracle Corporation
+      (Sydney, 6/1998 – 3/2000) for the Oracle database and Java
+      technology platforms; Oracle database developer at Westpac Financial Services
+      (Sydney, 6/1997 – 6/1998) and Solution6 (Sydney, 6/1994 – 6/1997) responsible
+      for very large databases, performance analysis, security auditing and capacity
+      analysis, data modelling, logical and physical design and management of
+      production distributed databases.
 volunteer:
