@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Bamford - Ruby and Rails Developer, Engineering Head, Venturist</title>
+    <link rel="stylesheet" href="{{ "/assets/css/app.css" | absolute_url }}">
+  </head>
+  <body class="font-sans flex min-h-screen bg-black">
+    <div class="fixed inset-0 flex justify-center sm:px-8">
+      <div class="flex w-full max-w-7xl lg:px-8">
+        <div class="w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20"></div>
+      </div>
+    </div>
+    <div class="relative xflex w-full flex-col">
+      {% include header.html %}
+      {{ content }}
+      {% include footer.html %}
+    </div>
+
+    {% comment %}
+    <header>
+      <h1>{{ site.title }}</h1>
+    </header>
+    {{ content }}
+    <footer>
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+      <p>Powered by <a href="https://jekyllrb.com" target="_blank">Jekyll</a>.</p>
+    </footer>
+    {% endcomment %}
+  </body>
+</html>

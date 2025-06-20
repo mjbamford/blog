@@ -1,0 +1,129 @@
+---
+layout: default
+---
+<main class="flex-auto">
+  <div class="sm:px-8 mt-16 sm:mt-32">
+    <div class="mx-auto w-full max-w-7xl lg:px-8">
+      <div class="relative px-4 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-2xl lg:max-w-5xl">
+          <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
+            <div class="lg:pl-20">
+              <div class="max-w-xs px-2.5 lg:max-w-none">
+                <img src='{{ "/assets/images/headshot--512x512.png" | absolute_url }}' class="aspect-square xrotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800">
+              </div>
+            </div>
+            <div class="lg:order-first lg:row-span-2">
+              <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-4xl dark:text-zinc-100">
+                I&rsquo;m Michael Bamford. I live on the Gold Goast, Australia, where I design and build web sites that people love.
+              </h1>
+              <div class="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+                <p>I&rsquo;m a full-stack web developer, consultant and educator. I
+                  love to build innovative web sites and unique digital
+                  properties that create great value and which people love to
+                  use.</p>
+
+                <p>I&rsquo;ve been infatuated with technology since 1983 when I first
+                  learnt to program. That was on an Apple II. It&rsquo;s been a love
+                  affair ever since. I&rsquo;ve progressed in coding from BASIC, to
+                  Pascal, to Cobol(!), to C, to C++, to assembly, to Java, to
+                  the web, Javascript and Ruby and Rails. It&rsquo;s been and
+                  continues to be a fantastic voyage.</p>
+
+                <p>I&rsquo;m so very thankful to a huge number of people who have
+                  make this possible. The very first person to thank is Mr
+                  Andrews, my computer labs teacher at high school. His coding
+                  lessons were what got me started on this career. He taught me
+                  to program a ball bouncing off the edges of the Apple II
+                  screen in BASIC. I loved that program.</p>
+
+                <p>My career has taken me to the heart of software technology
+                  in Silicon Valley and New York, where I contributed to some
+                  of the most innovative companies in the world. I've worked on
+                  large enterprise systems, and cutting-edge defense,
+                  financial, and ecommerce web sites.</p>
+
+                <p>A pivotal meeting in my development was in 2001: it was in
+                  the boardroom of the tallest, most prestigious office
+                  building in San Francisco with an extraordinary 270&dash;degree
+                  view of San Francisco Bay, the Pacific, the Golden Gate, the
+                  city, and the Bay Bridge. The engineers, senior management,
+                  and the vice president of engineering were all there,
+                  discussing a deeply technical problem. Harvard, Brown,
+                  Stanford, Berkley, MIT, CalTech: graduates of which were all
+                  present. Intimidated, I kept my mouth shut and thought to
+                  myself: &ldquo;I&rsquo;m the dumbest person in this room.&rdquo;</p>
+
+                <p>Over time, I realised that I was, in fact, not the dumbest
+                  in that room. It was that the engineers at that meeting had
+                  been trained in models: business models, engineering models,
+                  commercial models. They were able to apply these models to
+                  the problem at hand, communicate deeply technical details
+                  succinctly to business people, and come up with solutions
+                  that was technically sound, commercially reasonable, and
+                  aligned with the business&rsquo; strategy. I realised that I had
+                  been missing this critical piece of the puzzle. I had been
+                  focused on the technology, but I hadn't been thinking about
+                  the business side of things.</p>
+
+                <p>Consequently, I added a University of Sydney MBA to my coder
+                  know-how to lead software engineering teams, and to provide
+                  strategic technical leadership to a business. As a
+                  technologist, coder and engineering lead, I specialise in
+                  bridging the gap between business strategy and software
+                  innovation. I only deploy mature, reliable, commercially
+                  sound technologies like Ruby on Rails, PostgreSQL, and AWS,
+                  and I always make sure my code is scalable, predictable,
+                  efficient, and that it succinctly solves a business
+                  process.</p>
+
+                <p>I love to contribute to engineering teams through
+                  mentorship, fostering a mindset that aligns technology
+                  delivery with business goals. I code with a mindset and
+                  behaviours to best deliver commercial value, and I thoroughly
+                  enjoy supporting organisations in navigating technical
+                  complexities while ensuring sustainable growth. I&rsquo;m
+                  passionate about technology, and I love to share my knowledge
+                  with others.</p>
+
+                <p>Let&rsquo;s work together on something great that people will
+                  love!</p>
+              </div>
+            </div>
+            <div class="lg:pl-20">
+              <ul role="list">
+                {% comment %}
+                <li class="flex">
+                  {% include link_to_social.html icon="x" text="Follow on X" url="https://x.com/mjbamford" %}
+                </li>
+                {% endcomment %}
+
+                {% comment %}
+                <li class="mt-4 flex">
+                  {% include link_to_social.html icon="instagram" text="Follow on Instagram" url="#" %}
+                </li>
+                {% endcomment %}
+
+                <li class="mt-4 flex">
+                  {% include link_to_social.html icon="github" text="Follow on GitHub" url="https://github.com/mjbamford" %}
+                </li>
+
+                <li class="mt-4 flex">
+                  {% include link_to_social.html icon="linkedin" text="Follow on LinkedIn" url="https://www.linkedin.coml/@mjbamford" %}
+                </li>
+
+                <li class="mt-4 flex">
+                  {% include link_to_social.html icon="mastodon" text="Follow on ruby.social" url="https://ruby.social/@mjbamford" %}
+                </li>
+
+                <li class="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40 flex">
+                  {% assign url = "mailto:" | append: site.email %}
+                  {% include link_to_social.html icon="envelope" text=site.email url=url %}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
